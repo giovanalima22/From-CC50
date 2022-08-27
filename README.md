@@ -1,4 +1,4 @@
-# From-CC50
+# From-CS50
 Just some of the projects created during the CS-50 classes
 I started watching the classes translated into Portuguese and thought it would be a good idea
 to document all the progress I'm making.
