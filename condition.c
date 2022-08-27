@@ -1,3 +1,6 @@
+------------------------------
+ //Primeiro exemplo
+
 #include <stdio.h>
 #include <cs50.h>
 
@@ -24,7 +27,7 @@ int main(void)
 
 
 ------------------------------------------
- //Outro Exemplo 
+ //Segundo Exemplo 
  
 #include <stdio.h>
 #include <cs50.h>
@@ -42,5 +45,24 @@ int main(void)
     else if (c == 'n' || 'N')
     {
         printf("Not agreed.\n");
+    }
+}
+
+
+---------------------------------------------------------
+ //Terceiro exemplo: Mario Blocks
+ #include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+    //faz a contagem dos blocos 
+    for (int i = 0; i < 10; i++)
+    {
+        for (int j = 0; j < 10; j++)
+        {
+            printf("#");
+        }
+        printf("\n");
     }
 }
